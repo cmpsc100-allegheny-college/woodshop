@@ -148,6 +148,8 @@ This means, we must `import`:
 * `Chair`
 * `Table`
 
+Here, you will create as much `Lumber` as needed, cutting each `Lumber` with `Saw` and then adding those cut pieces to `WoodPile`. Once you have enough pieces, you use plans for each item of furniture to build that item. If furniture is built correctly, it will be placed into the `products` folder. See `TODO` instructions in `main.py` for more detailed steps to follow.
+
 ### `reflection.md`
 
 Don't forget to finish the `reflection.md` file in the `clean-up` folder!
