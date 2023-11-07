@@ -19,8 +19,8 @@ def main():
 
     # TODO: Make plans
     # Hint: Instantiate each object from plans imported above,
-    # passing cut pieces as an argument (parameter)
-    # Print each object
+    # passing cut pieces as an argument (pile.pieces)
+    # Print each item
 
 if __name__ == "__main__":
     main()
