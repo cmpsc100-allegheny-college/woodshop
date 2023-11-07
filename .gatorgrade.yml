@@ -25,12 +25,12 @@
       exact: true
 # Reflection
 - cleanup-room/reflection.md:
-  - description: All checkboxes checked
-    category: MatchFileFragment
+  - description: All checkboxes checked in reflection.md
+    category: Reflection
+    check: MatchFileRegex
     options:
-      fragment: "- [ ]"
-      count: 0
-      exact: true
+      regex: "\\-\\s\\[x\\]"
+      count: 3
 # Comment cops
 - Saw.py:
   - description: Saw.py contains at least one comment for each method
