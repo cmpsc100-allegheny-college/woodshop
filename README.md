@@ -1,13 +1,13 @@
 
 | Date              |          |
 |:------------------|:---------|
-| Todo | Assigned |
-| Todo | Due      |
+| Todo | 8 November 2023       |
+| Todo | 15 November 2023      |
 | Status            | [![GatorGrader](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) |
 
 # WORTHY WOODSMITHS WILL WIN OUT: MAYOR MANDATES COTTAGE INDUSTRY
 
-**Reported by `Official Mayor-Endorsed News` on `Todo`**
+**Reported by `Official Mayor-Endorsed News`**
 
 How many tables could a woodsmith smith if a woodsmith could smith tables? What about tables? Bookshelves? Citizens of `term-world` are about to find out. The Office of the Mayor announced--effective today--that all denizes of the great digital community should gear up to, as the Mayor yelled with increasing intensity, "make....Make....MAKE! For me, of course, your Mayor."
 
@@ -15,17 +15,36 @@ While recent weeks have seen some unrest among the ungrateful residents of vario
 
 So start up those saw blades, prepare to sell a majority stake in your soul, and learn some lumber skills; `term-world`, the Mayor noted, is about to "get all L.L. Bean up in here."
 
-## Overview
+## Learning Outcomes
 
-In this activity, you'll:
+In this assignment you will learn:
 
-* discover how to import custom modules and use them as `object`s
-* continue to create `class`es and `object`s to achieve purpose-built tasks
-* observe strange, but productive, `object` behaviors
+* how to import custom modules and use them as `object`s
+* how to create `class`es and `object`s to achieve purpose-built tasks
+* observe and reflect on `object` behaviors
 
-To achieve this, we need to:
+You will also continue to practice:
 
-* use our `main.py` function to coordinate the creation of:
+- Using data structures such as lists
+- Writing Python functions
+- Writing Python code that uses control structures (`while` loops and `if` statements)
+- Running Python programs
+- Debugging Python programs
+- Technical writing in Markdown
+- Command line navigation
+- Using version control (Git)
+
+These assignment learning outcomes contribute to the following course learning outcomes described in the [course syllabus](https://github.com/cmpsc100-allegheny-college/course_information):
+
+1. Apply Python programming principles to execute and explain computer code that implements interactive, novel solutions to a variety of computable problems.
+2. Release code consistent with industry-standard practices using professional grade IDEs, command line tools, and version control tools.
+3. Analyze and suggest revisions to existing Python language code to improve or add functionality.
+
+## Tasks Overview
+
+To achieve the learning objectives of the assignment, we need to:
+
+* use our `main.py` program to coordinate the creation of:
   * `Lumber`
   * various `object`s such as `Chair`s, `Table`s, and `Bookshelf`s
 * leverage `module`s built to modify, change, and interact with others by
@@ -43,10 +62,6 @@ The more quantitative steps:
 * pull from the `Woodpile` to build the items list above
 
 If all of this is done correctly, you should see a `Chair.py`, `Table.py` and `Bookshelf.py` in your `products` directory.
-
-### Previous Learning Objectives
-
-If you wish to review previous learning objectives from our assignments, you can visit the [`Syllabus`](https://chompe.rs/100-syllabus) for helpful information. However, it's also important to make an effort to retain what we have covered thus far as we progress through the course sections of the Readme might be taken out.
 
 ## Completing `woodshop` content
 
@@ -163,6 +178,18 @@ Here are some suggestions for improvements you can, **but are not limited to** u
 **Make sure to link your issue with the pull request you used to make your actually improvement.**
 
 **If you are not following an improvement suggestion you need to have your improvement suggestion checked by the professor before proceeding.**
+
+## Evaluating `hall of records` Content
+
+This is an individual assignment and each neighbor should submit their own completed assignment. Code should not look similar among any class members. As described in the [course contract](https://github.com/cmpsc100-allegheny-college/course_information/blob/main/CODE_OF_CONDUCT.md) members should not  share code and working solutions but instead should feel welcome to share tips and tricks, help each other in understanding core concepts, and plan, sketch, or otherwise draft general approaches.
+
+To receive a `Complete` status on this assignment, the assignment repository on GitHub must have a green check before the deadline. There are no additional requirements for this assignment.
+
+The content for this week is outfitted with a grader program that can be used to evaluate the completion status for the week. To run the grader for this week's work, you will need to be in the topmost level of the assignment folder. Once there, run the command:
+
+`gatorgrade`
+
+The grader will take a few minutes to do its work, but once it's complete the program will populate your terminal window with a series of checks that gauge the overall "completeness" of some of your required work.
 
 ## Backup Policy Reminder
 
